@@ -1,15 +1,42 @@
 {
   "name": "andre/php-steroids",
+  "description": "A modern, lightweight, and flexible MVC framework for PHP developers.",
+  "keywords": [
+    "mvc",
+    "framework",
+    "php",
+    "web development"
+  ],
+  "homepage": "https://github.com/andreiartemow/phpsteroids",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrei Artemov",
+      "email": "andrewartemow@gmail.com",
+      "homepage": "https://www.linkedin.com/in/andreiartemow/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
   "autoload": {
     "psr-4": {
       "App\\": "src/"
     }
   },
-  "authors": [
-    {
-      "name": "andrei",
-      "email": "andrei@clinicsoftware.com"
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
     }
-  ],
-  "require": {}
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
 }
