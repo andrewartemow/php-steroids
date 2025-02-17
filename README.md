@@ -19,5 +19,5 @@ To get started with PHPsteroids, follow these steps:
 1. **Install PHPsteroids**:
    - Download and install PHPsteroids using Composer.
    ```bash
-   composer create-project andreiartemow/phpsteroids your-project-name
+   composer require andrewartemow/php-steroids
    ```
